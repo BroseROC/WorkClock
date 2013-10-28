@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/viewSessionsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:longClickable="false" >
+
+    <TableRow
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:longClickable="false" >
+
+        <TextView android:text="Job Name" android:layout_width="fill_parent" />
+
+        <TextView android:text="Punch In" android:layout_width="fill_parent"/>
+
+        <TextView android:text="Punch Out" android:layout_width="fill_parent"/>
+        <TextView android:text="Time Elapsed" android:layout_width="fill_parent"/>
+    </TableRow>
+
+</TableLayout>

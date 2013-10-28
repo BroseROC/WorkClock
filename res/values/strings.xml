@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WorkClock</string>
+    <string name="menu_settings">Settings</string>
+    <string name="punch_in_button">Punch In</string>
+    <string name="punch_out_button">Punch Out</string>
+    <string name="add_job_button">Add Job</string>
+    <string name="job_rate">Job Rate</string>
+    <string name="job_name">Job Name</string>
+    <string name="view_sessions_button">View Sessions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_job">AddJobActivity</string>
+
+</resources>

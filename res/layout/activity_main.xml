@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnPunchIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="66dp"
+        android:onClick="onPunchInClick"
+        android:text="@string/punch_in_button" />
+
+    <Button
+        android:id="@+id/viewSessionsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPunchIn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="onAddJobClick"
+        android:text="@string/add_job_button" />
+
+    <Button
+        android:id="@+id/btnPunchOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPunchIn"
+        android:layout_alignBottom="@+id/btnPunchIn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:clickable="false"
+        android:onClick="onPunchOutClick"
+        android:text="@string/punch_out_button" />
+
+    <Button
+        android:id="@+id/btnViewSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/viewSessionsActivity"
+        android:layout_alignBottom="@+id/viewSessionsActivity"
+        android:layout_alignRight="@+id/btnPunchOut"
+        android:onClick="onViewSessionsClick"
+        android:text="@string/view_sessions_button" />
+
+</RelativeLayout>
